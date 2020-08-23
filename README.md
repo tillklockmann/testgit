@@ -16,10 +16,10 @@ playground for git
 
 ### back to master, merge and push to remote
 
-`git checkout master`
-`git merge feature/xy`
+    git checkout master
+    git merge feature/xy
 
 ### delete feature branch locally and remote
 
-`git branch -d feature/xy`
-`git push origin --delete feature/xy`
+    git branch -d feature/xy
+    git push origin --delete feature/xy
