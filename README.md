@@ -18,3 +18,8 @@ playground for git
 
 `git checkout master`
 `git merge feature/xy`
+
+### delete feature branch locally and remote
+
+`git branch -d feature/xy`
+`git push origin --delete feature/xy`
