@@ -1,4 +1,4 @@
-# gitflow
+# gitflow cheatsheet
 
 
 ### make and checkout new feature branch
