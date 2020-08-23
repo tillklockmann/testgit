@@ -3,7 +3,7 @@
 
 ### make and checkout new feature branch
 
-`git checkout -b "feature/branch"`
+    git checkout -b "feature/branch"
 
 ### do a commit or two and push new local branch to remote and set tracking
 
