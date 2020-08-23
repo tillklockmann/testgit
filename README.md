@@ -1,7 +1,7 @@
 # gitflow
 
 
-### make a new feature branch
+### make and checkout new feature branch
 
 `git checkout -b "feature/branch"`
 
@@ -14,6 +14,7 @@
 
     git checkout master
     git merge feature/xy
+    git push
 
 ### delete feature branch locally and remote
 
