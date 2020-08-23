@@ -1,18 +1,14 @@
-# testgit
-# bugfix
+# gitflow
 
-playground for git
 
-[git markdown!](https://guides.github.com/features/mastering-markdown/#examples)
-
-### make a new branch
+### make a new feature branch
 
 `git checkout -b "feature/branch"`
 
-### do a commit or two and
-### push new local branch to remote and set tracking
+### do a commit or two and push new local branch to remote and set tracking
 
-`git push -u origin feature/xy`
+    git commit -am 'automatically "add" changes from all known files'
+    git push -u origin feature/xy
 
 ### back to master, merge and push to remote
 
@@ -23,3 +19,5 @@ playground for git
 
     git branch -d feature/xy
     git push origin --delete feature/xy
+
+[git markdown styleguide](https://guides.github.com/features/mastering-markdown/#examples)
