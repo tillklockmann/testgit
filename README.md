@@ -9,6 +9,12 @@ playground for git
 
 `git checkout -b "feature/branch"`
 
+### do a commit or two and
 ### push new local branch to remote and set tracking
 
 `git push -u origin feature/xy`
+
+### back to master, merge and push to remote
+
+`git checkout master`
+`git merge feature/xy`
