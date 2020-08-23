@@ -5,7 +5,7 @@
 
     git checkout -b "feature/xy"
 
-### do a commit or two and push new local branch to remote and set tracking
+### commit changes and push new local branch to remote and set upstream tracking
 
     git commit -am 'automatically "add" changes from all known files'
     git push -u origin feature/xy
