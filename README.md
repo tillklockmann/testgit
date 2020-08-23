@@ -8,3 +8,7 @@ playground for git
 ### make a new branch
 
 `git checkout -b "feature/branch"`
+
+### push new local branch to remote and set tracking
+
+`git push -u origin feature/xy`
