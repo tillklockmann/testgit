@@ -19,6 +19,6 @@
 ### delete feature branch locally and remote
 
     git branch -d feature/xy
-    git push origin --delete feature/xy
+    git push origin -d feature/xy
 
 [git markdown styleguide](https://guides.github.com/features/mastering-markdown/#examples)
