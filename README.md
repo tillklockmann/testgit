@@ -9,13 +9,16 @@
 
     git checkout --track origin/xy
 
-### commit changes and push new local branch to remote and set upstream tracking
+### push and set upstream tracking (-u) for remote (origin)
 
     git push -u origin feature/xy
 
-### delete feature branch locally and remote
+### delete local branch 
 
     git branch -d feature/xy
+  
+### delete remote branch
+
     git push origin -d feature/xy
     
 ### helpfull links
