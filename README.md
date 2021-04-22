@@ -21,6 +21,10 @@
 
     git push origin -d feature/xy
     
+### undo last commit locally
+
+    git reset --soft HEAD~1
+    
 ### helpfull links
 
 - [git markdown styleguide](https://guides.github.com/features/mastering-markdown/#examples)
