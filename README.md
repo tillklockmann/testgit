@@ -25,6 +25,10 @@
 
     git reset --soft HEAD~1
     
+### [get rid off references to remote branches that have already been deleted](https://www.git-tower.com/learn/git/faq/cleanup-remote-branches-with-git-prune/)
+
+    git fetch --prune origin
+    
 ### helpfull links
 
 - [git markdown styleguide](https://guides.github.com/features/mastering-markdown/#examples)
