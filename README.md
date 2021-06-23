@@ -23,7 +23,7 @@
     
 ### undo last commit locally
 
-    git reset --soft HEAD~1
+    git reset HEAD~1 or git reset head^ 
     
 ### [get rid off references to remote branches that have already been deleted](https://www.git-tower.com/learn/git/faq/cleanup-remote-branches-with-git-prune/)
 
