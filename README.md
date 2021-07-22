@@ -29,6 +29,11 @@
 
     git fetch --prune origin
     
+### revert merge commit
+
+    git revert -m 1 <hash-of-merge-commit>
+        
+    
 ### helpfull links
 
 - [git markdown styleguide](https://guides.github.com/features/mastering-markdown/#examples)
